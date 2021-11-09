@@ -2,8 +2,8 @@
 
 * Entropy
 Entropy helps us to build an appropriate decision tree for selecting the best splitter. Entropy can be defined as a measure of the purity of the sub split. 
-Entropy always lies between 0 to 1. The entropy of any split can be calculated by this formula. 
+Entropy always lies between 0 to 1. The algorithm calculates the entropy of each feature after every split and as the splitting continues on, it selects the best feature and starts splitting according to it.
 
-  $$ \left.\left.\left.H(s)=-P_{(}+\log _{2} P_{(}+\right)-P_{(}-\right) \log _{2} P_{(-}\right) $$ $\left.\operatorname{Here} P_{(}+\right) / P_{(-)}=\%$ of $+$ ve class $1 \%$ of - ve class
+* Gini Impurity: 
+The internal working of Gini impurity is also somewhat similar to the working of entropy in the Decision Tree. In the Decision Tree algorithm, both are used for building the tree by splitting as per the appropriate features but there is quite a difference in the computation of both the methods. 
 
-The algorithm calculates the entropy of each feature after every split and as the splitting continues on, it selects the best feature and starts splitting according to it.
